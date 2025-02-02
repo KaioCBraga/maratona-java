@@ -89,3 +89,16 @@ Observações:
 - Use switch para múltiplas comparações de valores.
 - O operador ternário é útil para atribuições condicionais simples.
 
+## 05 - ESTRUTURAS DE REPETIÇÕES
+
+1. FOR
+
+- Usado quando o número de repetição é
+
+2. WHILE
+
+- Repete um bloco de código enquanto uma condição for verdadeira.
+
+3. DO-WHILE
+
+- Similar ao while, mas o bloco de código é executado pelo menos uma vez, mesmo que a condição seja falsa.
