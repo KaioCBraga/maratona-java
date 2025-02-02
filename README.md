@@ -75,3 +75,17 @@ Menor ou igual a (<=):
 
 - Verifica se o valor da esquerda é menor ou igual ao valor da direita.
 
+## 04 - ESTRUTURAS CONDICIONAIS
+
+1. *if* : Executa um bloco de código se uma condição for verdadeira
+2. *if-else* : Executa um bloco de código se a condição for verdadeira e outro bloco se for falsa.
+3. *else-if* : Permite testar múltiplas condições em sequência.
+4. Operador Ternário *(? :)* : Uma forma compacta de escrever uma condição if-else.
+5. switch-case: Usado para comparar uma variável com múltiplos valores possíveis.
+
+Observações:
+
+- Use if para condições simples.
+- Use switch para múltiplas comparações de valores.
+- O operador ternário é útil para atribuições condicionais simples.
+
