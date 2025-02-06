@@ -102,3 +102,34 @@ Observações:
 3. DO-WHILE
 
 - Similar ao while, mas o bloco de código é executado pelo menos uma vez, mesmo que a condição seja falsa.
+
+## 06 - ARRAYS
+
+Arrays são estruturas de dados que permitem armazenar uma coleção de elementos do mesmo tipo
+
+1. Arrays Unidimensionais
+
+    - Um array unidimensional é uma lista de elementos do mesmo tipo, onde cada elemento pode ser acessado por um índice
+      numérico.
+    - Um array pode ser declarado e inicializado com um tamanho fixo ou com valores pré-definidos.
+    - Os elementos de um array são acessados por meio de índices, que começam em 0. É possível modificar os valores dos
+      elementos após a criação do array.
+    - Para percorrer todos os elementos de um array, é comum usar estruturas de repetição como for ou for-each.
+
+2. Arrays Multidimensionais
+
+    - Arrays multidimensionais são arrays de arrays. O tipo mais comum é o array bidimensional, que pode ser
+      visualizado como uma matriz (linhas e colunas).
+    - Um array multidimensional pode ser declarado e inicializado com tamanhos fixos ou com
+      valores pré-definidos.
+    - Cada elemento de um array multidimensional é acessado por meio de dois ou mais índices, dependendo
+      da quantidade de dimensões.
+    - Para percorrer arrays multidimensionais, são usados loops aninhados, um para cada dimensão do array.
+
+3. Observações
+    - Arrays têm tamanho fixo após a inicialização, ou seja, não é possível aumentar ou diminuir o tamanho de um
+      array após sua criação.
+    - A propriedade length é usada para obter o tamanho de um array.
+    - Arrays multidimensionais podem ter dimensões variadas, o que significa que cada "linha" pode ter um número
+      diferente
+      de "colunas".
