@@ -133,3 +133,30 @@ Arrays são estruturas de dados que permitem armazenar uma coleção de elemento
     - Arrays multidimensionais podem ter dimensões variadas, o que significa que cada "linha" pode ter um número
       diferente
       de "colunas".
+
+## 06 - MÉTODOS
+
+1. O que são Métodos?
+
+- Métodos em Java são blocos de código que realizam uma tarefa específica. Eles são usados para organizar o código,
+  evitar repetição e facilitar a manutenção. Um método pode receber parâmetros, executar uma lógica e retornar um valor.
+
+2. Estrutura de um Método:
+
+- modificador: Define a visibilidade do método (public, private, protected).
+
+- tipoDeRetorno: O tipo de dado que o método retorna (int, double, String, void, etc.).
+
+- nomeDoMetodo: O nome do método, que deve seguir as convenções de nomenclatura (camelCase).
+
+- parâmetros: Dados que o método recebe para processar (opcional).
+
+- return: Retorna um valor ao chamador (obrigatório, exceto para métodos void).
+
+3. Conclusão
+
+- Métodos são fundamentais para organizar e reutilizar código em Java. Ao seguir boas práticas, você pode escrever
+  métodos claros, eficientes e fáceis de manter. Use-os para dividir tarefas complexas em partes menores e documente
+  sempre que possível.
+
+
