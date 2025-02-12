@@ -134,7 +134,7 @@ Arrays são estruturas de dados que permitem armazenar uma coleção de elemento
       diferente
       de "colunas".
 
-## 06 - MÉTODOS
+## 07 - MÉTODOS
 
 1. O que são Métodos?
 
@@ -158,5 +158,55 @@ Arrays são estruturas de dados que permitem armazenar uma coleção de elemento
 - Métodos são fundamentais para organizar e reutilizar código em Java. Ao seguir boas práticas, você pode escrever
   métodos claros, eficientes e fáceis de manter. Use-os para dividir tarefas complexas em partes menores e documente
   sempre que possível.
+
+## 08 - MODIFICADORES DE ACESSO
+
+Em Java, os modificadores de acesso controlam a visibilidade de classes, atributos, métodos e construtores. Eles definem
+como outros componentes do código podem interagir com esses elementos. Os principais modificadores de acesso são:
+
+1. public:
+
+- O acesso é permitido de qualquer lugar.
+
+- Pode ser aplicado a classes, atributos, métodos e construtores.
+
+2. private:
+
+- O acesso é restrito apenas à própria classe.
+
+- Usado para encapsular atributos e métodos, evitando acesso externo.
+
+3. protected:
+
+- O acesso é permitido dentro do mesmo pacote ou por subclasses (herança).
+
+- Ideal para permitir extensão de funcionalidades em subclasses.
+
+4. default (sem modificador):
+
+- O acesso é permitido apenas dentro do mesmo pacote.
+
+- Também conhecido como acesso de pacote.
+
+![img.png](img.png)
+
+### Getters e Setters
+
+Para acessar e modificar atributos privados de uma classe, utilizamos métodos getters e setters. Eles garantem o
+encapsulamento, permitindo controlar como os dados são acessados e alterados.
+
+#### Getter:
+
+- Método usado para obter o valor de um atributo privado.
+
+- Segue o padrão: public Tipo getNomeDoAtributo().
+
+#### Setter:
+
+- Método usado para definir ou alterar o valor de um atributo privado.
+
+- Segue o padrão: public void setNomeDoAtributo(Tipo valor).
+
+
 
 

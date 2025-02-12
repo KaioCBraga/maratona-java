@@ -2,12 +2,12 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Funcionario;
 
-public class FuncionarioTest01 {
+public class FuncionarioTest {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Kaio";
-        funcionario.idade = 24;
-        funcionario.salarios = new double[]{2000, 3000, 2500};
+        funcionario.setNome("Kaio");
+        funcionario.setIdade(25);
+        funcionario.setSalarios(new double[]{2000, 2500, 2800});
         funcionario.imprime();
     }
 }
